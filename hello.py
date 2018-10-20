@@ -5,7 +5,7 @@
 #from cgi import parse_qs, escape
 from re import sub
 
-def application(environ, start_response):
+def app(environ, start_response):
     """wsgi minimal app.
     $ gunicorn hello:app
     """
